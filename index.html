@@ -86,7 +86,18 @@
         <section class="log-section" id="log">
           <div class="section-intro"><div><p class="section-kicker">Make today count</p><h2>Log a choice</h2></div><p>Estimates are based on your inputs. Approximate is still useful.</p></div>
           <form class="log-form" id="log-form">
-            <label class="field"><span class="field-label"><span class="category-icon travel-icon">↗</span> Commute</span><select id="commute"><option value="0">No commute today</option><option value="1.8">Car · 30 min</option><option value="1.1">Car · 15 min</option><option value="0.6">Bus or train</option><option value="0.1">Walk or cycle</option></select></label>
+           <label class="field">
+              <span class="field-label"><span class="category-icon travel-icon">↗</span> Commute</span>
+              <select id="commute">
+                <option value="0">No commute today</option>
+                <option value="1.8">Car · 30 min</option>
+                <option value="1.1">Car · 15 min</option>
+                <option value="0.8">Motorcycle / Scooter · 30 min</option>
+                <option value="0.6">Bus or train</option>
+                <option value="0.2">E-Bike / Electric Scooter</option>
+                <option value="0.0">Bicycle / Walk</option>
+              </select>
+            </label>
             <label class="field"><span class="field-label"><span class="category-icon food-icon">◌</span> Food</span><select id="food"><option value="2.4">Mixed meals</option><option value="4.2">Meat-forward meals</option><option value="1.2">Mostly plant-based</option><option value="0.7">Fully plant-based</option></select></label>
             <label class="field"><span class="field-label"><span class="category-icon home-icon">⌂</span> Home energy</span><select id="energy"><option value="3">Typical day</option><option value="4.5">High energy day</option><option value="1.7">Low energy day</option><option value="2.1">Renewable energy</option></select></label>
             <button class="log-button" type="submit"><span>＋</span> Add today</button>
