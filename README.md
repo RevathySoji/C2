@@ -1,5 +1,12 @@
 # C2# 🍃 Trace — Personal Carbon Footprint Tracker
 
+
+| Member   | Role                                        | Responsibilities                                                                                                                      | Main Deliverables                                               |
+| -------- | ------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Member 1 | Project Lead & System Architect             | Defined problem scope, designed overall application workflow, coordinated integration between modules, ensured estimation consistency | Architecture design, project planning, final integration        |
+| Member 2 | Frontend Developer (UI/UX)                  | Designed user interface, created daily logging forms, implemented responsive layouts and user interactions                            | `index.html`, user input forms, dashboard screens               |
+| Member 3 | Backend Logic & Carbon Estimation Engineer  | Developed carbon footprint calculation model, mapped lifestyle inputs to CO₂ estimates, handled incomplete inputs and validation      | `app.js` calculation engine, estimation algorithms              |
+| Member 4 | Data Visualization & Documentation Engineer | Built trend charts and analytics, created graphical footprint summaries, prepared README and project documentation                    | SVG charts, trend analysis, `README.md`, presentation materials |
 **Trace** is an intuitive, web-based carbon footprint tracking application built for the **iTrax Adaptathon**. It helps individuals quantify, understand, and reduce their daily environmental impact through simple data logging and responsive SVG visualizations.
 
 ---
